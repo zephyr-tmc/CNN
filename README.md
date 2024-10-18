@@ -7,12 +7,12 @@ This experiment aims to classify cats and dogs using convolutional neural networ
 
 
 
-Objective
+# Objective
 
 The objective of the experiment was to use deep learning to classify images of cats and dogs using TensorFlow. The main goal was to practice convolutional neural networks and explore techniques such as data augmentation and transfer learning to improve model performance and generalization capabilities.
 
 
-Methodology
+# Methodology
 
 Data Preparation: The dataset consists of cat and dog images sourced from an online database, with about 11,000 images in total. The images were split into training and validation datasets, with 2000 training images and 1000 validation images for each class. Preprocessing involved resizing all images to 150x150 pixels and normalizing pixel values to fall between 0 and 1 to aid in model convergence.
 
@@ -40,7 +40,7 @@ Model 4: To further refine the model, custom callbacks were added to stop traini
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/dfb4b5f8-8a37-4a86-8f34-6af9fb438511">
 
 
-Results
+# Results
 
 Each model's performance was evaluated using training and validation loss and accuracy plots:
 
@@ -53,7 +53,7 @@ Model 3: Transfer learning with ResNet50 did not yield significant improvements,
 Model 4: Fine-tuning the ResNet50 model and using the Adam optimizer led to more stable training, with validation accuracy reaching a maximum of around 68%. Training and validation accuracies were close, suggesting reduced overfitting, but the overall accuracy was still lower than desired.
 
 
-Conclusion
+# Conclusion
 
 Data augmentation proved to be an effective method for improving the model's performance, as it increased the diversity of the training data and reduced overfitting. Transfer learning, while generally powerful, did not yield the expected benefits for this dataset, likely due to a mismatch between the pre-trained features and the target task. Fine-tuning the pre-trained model and using adaptive optimization techniques like Adam further improved performance, though the improvements were incremental. The experiment demonstrated that different methods should be tailored to the specific problem and dataset to achieve optimal performance. Future work could involve experimenting with different pre-trained models, more extensive fine-tuning, and the use of larger datasets to further enhance the model's generalization capabilities.
 
