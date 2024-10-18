@@ -3,7 +3,8 @@
 
 This experiment aims to classify cats and dogs using convolutional neural networks (CNN). The process draws inspiration from a popular blog post on deep learning, incorporating techniques like data augmentation and transfer learning to improve classification accuracy.
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/2d088d40-b1e1-488b-985b-790c463db92a">
-<img width="286" alt="image" src="https://github.com/user-attachments/assets/1617600b-6649-4942-842f-22eb20aae61c">
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/c4204b84-380c-47f9-937b-61e5d5c2697e">
+
 
 
 
@@ -18,7 +19,8 @@ Data Preparation: The dataset consists of cat and dog images sourced from an onl
 
 Model 1: The initial model used a Sequential architecture with several convolutional and pooling layers, followed by dense layers for classification. The architecture consisted of three convolutional layers, each followed by a ReLU activation function and max-pooling, and two fully connected layers at the end. The model used a sigmoid activation function for binary classification. Data augmentation was not applied here, and the model achieved moderate accuracy, with training accuracy significantly higher than validation accuracy, indicating overfitting. The validation accuracy fluctuated around 48% to 56%, and the loss ranged between 0.68 and 0.69, showing the model's limited ability to generalize.
 
-<img width="343" alt="image" src="https://github.com/user-attachments/assets/032a3b8d-6d84-4ae9-8d20-814223406c7b">
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/d132a49b-8b2f-4c10-b245-7d6ef516e726">
+
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/b6ec2e87-62e3-4970-b7dd-3e008c271d43">
 
 
