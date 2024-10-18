@@ -2,6 +2,7 @@
 
 
 This experiment aims to classify cats and dogs using convolutional neural networks (CNNs). The process draws inspiration from a popular blog post on deep learning, incorporating techniques like data augmentation and transfer learning to improve classification accuracy.
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/2d088d40-b1e1-488b-985b-790c463db92a">
 
 
 Objective
