@@ -1,5 +1,5 @@
-# CNN
-Enhancing Cat and Dog Classification with Data Augmentation and Transfer Learning
+# Enhancing Cat and Dog Classification with Data Augmentation and Transfer Learning
+
 
 This experiment aims to classify cats and dogs using convolutional neural networks (CNNs). The process draws inspiration from a popular blog post on deep learning, incorporating techniques like data augmentation and transfer learning to improve classification accuracy.
 
